@@ -1,0 +1,86 @@
+/* Bootstrap simplifies our workflow, but it's still helpful to add our own CSS */
+/* This file will include CSS to override Bootstrap defaults */
+
+/* Typography */
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+/* Wordmark */
+
+#wordmark{
+  font-family: 'Bree Serif', serif;
+  font-size: 1.4em;
+}
+h1, h2, h3, h4,h5, h6{
+  font-family: 'Bree Serif', serif;
+}
+
+.badge{
+  font-family: 'Raleway', sans-serif;
+}
+
+#wordmark svg{
+  fill: #fff;
+}
+
+#wordmark span{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+/* Hero */
+
+#hero {
+  background-image: url(../img/sabbath.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  background-blend-mode: soft-light;
+  min-height: 50vh;
+}
+
+#chumly #hero{
+  background-image: url(../img/chumly.jpg);
+}
+
+#chumly #numbers{
+  background-image: url(../img/dandelions.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  background-blend-mode: soft-light;
+}
+
+#chumly #numbers .row{
+  background-color: #ffffff66;
+}
+
+#chumly .progress{
+  height: 100%;
+}
+/* Dark background */
+
+.bg-dark{
+  background-color: #382d44!important;
+}
+
+.dropdown-menu-dark{
+  background-color: #6f42c1!important;
+}
+
+
+.bg-secondary{
+  background-color: #978ca3!important;
+}
+
+
+.dropdown-menu-dark .dropdown-item.actjve, .dropdown-menu-dark .dropdown-item:active{
+  color: #fff;
+  background-color: #59377e;
+}
+
+.bg-info{
+  background-color:#e6dbac!important;
+}

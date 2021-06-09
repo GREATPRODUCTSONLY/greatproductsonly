@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>paws&amp;go - Chumly</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon - See also: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_custom_icons_to_your_site -->
+    <link rel="shortcut icon" href="img/paw.png" type="image/x-icon">
+
+  </head>
+  <body class="bg-light d-flex flex-column h-100" id="chumly">
+
+  <!-- Bootstrap Nav Bar here -->
+  <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container py-5">
+      <a id="wordmark" class="me-1 navbar-brand" href="index.html">
+        <!--Created by jenya from the Noun Project-->
+        <!--https://thenounproject.com/search/?q=pets&i=1307711-->
+        <svg class="me-3 d-inline-block align-top" xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 100 100" >
+          <path class="st0" d="M63.1,47l20.2,26.5c5.5,7.3,4.1,17.6-3.1,23.1c-2.9,2.2-6.4,3.4-10,3.4H29.8c-9.1,0-16.5-7.4-16.5-16.5
+c0-3.6,1.2-7.1,3.4-10L36.9,47c5.5-7.3,15.9-8.7,23.1-3.1C61.2,44.7,62.2,45.8,63.1,47L63.1,47z M33.3,0c6.1,0,11.1,5,11.1,11.1v5.6
+c0,6.1-5,11.1-11.1,11.1s-11.1-5-11.1-11.1v-5.6C22.2,5,27.2,0,33.3,0z M11.1,27.8c6.1,0,11.1,5,11.1,11.1v5.6
+c0,6.1-5,11.1-11.1,11.1S0,50.6,0,44.4v-5.6C0,32.8,5,27.8,11.1,27.8z M66.7,0c6.1,0,11.1,5,11.1,11.1v5.6c0,6.1-5,11.1-11.1,11.1
+s-11.1-5-11.1-11.1v-5.6C55.6,5,60.5,0,66.7,0z M88.9,27.8c6.1,0,11.1,5,11.1,11.1v5.6c0,6.1-5,11.1-11.1,11.1
+c-6.1,0-11.1-5-11.1-11.1v-5.6C77.8,32.8,82.8,27.8,88.9,27.8z"/>
+        </svg>
+         paws<span>&amp;</span>go</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="index.html">Home</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkCats" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Cats
+             </a>
+             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkCats">
+               <li><a class="dropdown-item" href="rocky.html">Rocky</a></li>
+               <li><a class="dropdown-item" href="masha.html">Masha</a></li>
+               <li><a class="dropdown-item" href="gare7.html">Garey</a></li>
+             </ul>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLinkDogs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Dogs
+             </a>
+             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLinkCats">
+               <li><a class="dropdown-item active" aria-current="page" href="chumly.html">Chumly</a></li>
+             </ul>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="humans.html">Humans</a>
+           </li>
+         </ul>
+       </div>
+    </div>
+  </nav>
+
+  <!-- Insert Bootstrap Jumbotron here -->
+  <!-- https://getbootstrap.com/docs/5.0/examples/jumbotron/ -->
+  <div id="hero" class="p-5 mb-4 bg-dark text-light d-flex align-items-end">
+    <div class="container py-5">
+      <div class ="row">
+      <div class="col-6 col-md-3 col-lg-2">
+        <img class="rounded-circle w-100" src="img/chumly-square.jpg" alt="Chumly">
+      </div>
+      <div class="col-12 col-md-9 col-lg-10">
+        <h1 class="display-1">Hi my name is <span class="badge bg-warning"> Chumly </span></h1>
+        <p class="col-md-8 fs-4">I am playful and easy going. I will be a perfect addition to your home because I have been <span class="badge bg-info text-dark ">Neutered</span> and <span class="badge bg-info text-dark">Vaccinated</span>!</p>
+        <form action="humans.html">
+          <button type="submit" class="btn btn-secondary btn-lg" type="button">adopt me</button>
+        </form></div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Icon Grid: Chumly in a nutshell -->
+<!--https://getbootstrap.com/docs/5.0/examples/features/#icon-grid-->
+<section class="container px-4 py-5" id="icon-grid">
+  <h2 class="pb-2 border-bottom">Icon grid</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#award"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Well Behaved</h4>
+        <p>Chumly is a very good dog!</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#cpu-fill"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Smart</h4>
+        <p>Can process commands with ease.</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#calendar3"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Predictable</h4>
+        <p>Loves schedules and Routines</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#house"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">House Trained</h4>
+        <p>House and Potty Trained</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#speedometer2"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">High Energy</h4>
+        <p>A ball of energy on long walks</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#camera"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Photogenic</h4>
+        <p>Chumly has his own Instagram</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#Controller"></use></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Playful</h4>
+        <p>He loves other dogs and he gets along with Cats as well!</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="img/bootstrap-icons.svg#heart"></use> </svg>
+      <div>
+        <h4 class="fw-bold mb-0">Loyal</h4>
+        <p>Chumly is your best friend</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- https://getbootstrap.com/docs/5.0/components/progress/ -->
+<section id="numbers" class="bg-info py-5">
+  <div class="container">
+    <h2>Chumly by the numbers</h2>
+    <div class="row py-3 px-3 my-3">
+        <div class="col col-lg-6">
+        <h4>Charm</h4>
+        <p> Chumly wins over every single heart.</p>
+        </div>
+        <div class="col col-lg-6">
+          <div class="progress">
+    <div class="progress-bar bg-secondary display-6" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+</div>
+    </div>
+    <div class="row py-3 px-3 my-3">
+        <div class="col col-lg-6">
+          <h4>Adaptability</h4>
+          <p> Chumly moved from shelter to shelter with a positive and unbreaking attitude</p>
+        </div>
+        <div class="col col-lg-6">
+          <div class="progress">
+    <div class="progress-bar bg-secondary display-6" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+</div>
+    </div>
+    <div class="row py-3 px-3 my-3">
+        <div class="col col-lg-6">
+          <h4>Potential</h4>
+          <p> Chumly is ready to learn new tricks</p>
+        </div>
+        <div class="col col-lg-6">
+          <div class="progress">
+    <div class="progress-bar bg-secondary display-6" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+</div>
+    </div>
+    </div>
+  </section>
+
+  <!--Canine Affect derived from Pricing Tables
+  https://getbootstrap.com/docs/5.0/examples/pricing/-->
+  <section class="container pt-5">
+    <h2>Canine Affect</h2>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">The Bite</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0<small class="text-muted fw-light">/ever</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Never ever bites</li>
+              <li>Kid Friendly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">The Bark</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">5<small class="text-muted fw-light">/day</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Guards the House</li>
+              <li>Deters Criminals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Tail Wags</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">1000<small class="text-muted fw-light">/day</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Expresses Happiness</li>
+              <li>Communicates Agreement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+<!-- data table -->
+<!-- https://getbootstrap.com/docs/5.0/content/tables/ -->
+<section id="tabular" class="bg-secondary py-5">
+  <div class="container">
+    <h2>Data Profile</h2>
+    <table class="table table-secondary table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Skill</th>
+      <th scope="col">Proficiency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>English</td>
+      <td>Basic Understanding</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Doglish</td>
+      <td>Thorough Knowledge</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Canine Interaction</td>
+      <td>Zenmaster</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Inter-Species Interaction</td>
+      <td>Intermediate</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    </section>
+
+    <!--Endorsements -->
+    <!-- https://getbootstrap.com/docs/5.0/content/typography/#naming-a-source -->
+    <section id="endorsements" class="container my-5">
+      <h2>Endorsements</h2>
+      <div class="row mb-3">
+          <div class="col-3 col-md-2">
+          <!--  <a title="Edward Harrison May
+  , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Edward_Harrison_May_-_Edith_Wharton_-_Google_Art_Project.jpg"><img width="256" alt="Edward Harrison May - Edith Wharton - Google Art Project" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Edward_Harrison_May_-_Edith_Wharton_-_Google_Art_Project.jpg/256px-Edward_Harrison_May_-_Edith_Wharton_-_Google_Art_Project.jpg"></a>-->
+<img class="w-100" alt="Edward Harrison May - Edith Wharton - Google Art Project" src="img/wharton.jpg"
+</div>
+          <div class="col-9 col-md-10">
+            <figure>
+    <blockquote class="blockquote">
+      <p><b>[Chumly]</b> A heart-beat at my feet.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Edith Wharton <cite title="Source Title">Lyrical Epigrams, Yale Review</cite>
+    </figcaption>
+  </figure></div>
+      </div>
+      <div class="row mb-3">
+          <div class="col-3 col-md-2">
+        <!--  <a title="Elisa Cabot, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Milan_Kundera_redux.jpg"><img width="512" alt="Milan Kundera redux" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Milan_Kundera_redux.jpg/512px-Milan_Kundera_redux.jpg"></a> -->
+          <img class="w-100" alt="Milan Kundera redux" src="img/kundera.jpg"
+        </div>
+        <div class="col-9 col-md-10">
+          <figure>
+    <blockquote class="blockquote">
+      <p><b>[Chumly]</b> was never expelled from Paradise</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Milan Kundera, <cite title="Source Title">The Unbearable Lightness of Being</cite>
+    </figcaption>
+  </figure>
+</div>
+  <p><i> These endorsements are fictional adaptations and serve as examplars only.</i></p>
+      </div>
+    </section>
+
+<!-- final appeal. -->
+<section id="appeal" class="container-fluid bg-secfondary">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-6 col-md-3 mx-auto mb-5">
+      <img class="rounded-circle w-100" src="img/chumly-square.jpg" alt="Chumly"></div>
+      </div>
+      <div class="col-12 text-center">
+        <form action="humans.html">
+          <button type="submit" class="btn btn-primary btn-lg" type="button"> adopt me</button>
+          </form>
+    </div>
+  </section>
+
+ <!--  Sticky Footer https://getbootstrap.com/docs/5.0/examples/sticky-footer/
+   Also Note the classes on the html and body tags -->
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container text-center">
+      <span class="text-white">Created by <a class="text-white" href="https://nsitu.ca">Harold Sikkema</a> with <a class="text-white" href="https://getbootstrap.com">Bootstrap</a>. Icons via the <a class="text-white" href="https://thenounproject.com/">Noun Project</a>.</span>
+    </div>
+  </footer>
+
+    <!-- Bootstrap Javascript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
